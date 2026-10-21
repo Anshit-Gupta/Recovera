@@ -2,11 +2,13 @@
 
 Recovera is an AI-assisted SRE platform that turns production signals into actionable remediation workflows.
 
-Core pipeline:
+## High-Level Overview
+
+![Recovera high-level overview](./high-lvl-overview.png)
 
 `Logs -> Detection -> RCA -> Fix Generation -> PR Creation -> Safety-Gated Automation`
 
-## Problem Statement
+## Why Recovera
 
 Modern engineering teams receive huge volumes of production logs and alerts, but root-cause investigation and remediation are still mostly manual. This slows incident response, increases downtime, and creates operational fatigue. Recovera addresses this by automating the path from detection to safe, reviewable fixes.
 
@@ -163,4 +165,3 @@ Inside `Recovera/client`:
   - `docs/client/encryption-logic.md`
   - `docs/client/database-schema.md`
   - `docs/client/dashboard-logic.md`
-
